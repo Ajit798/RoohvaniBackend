@@ -483,6 +483,7 @@ export interface ApiRoohvaniRoohvani extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     Image: Schema.Attribute.Media<'images'>;
+    isFeaturedPost: Schema.Attribute.Boolean;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

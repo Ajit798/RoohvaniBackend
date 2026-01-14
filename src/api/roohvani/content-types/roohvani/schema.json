@@ -23,6 +23,9 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "isFeaturedPost": {
+      "type": "boolean"
     }
   }
 }
